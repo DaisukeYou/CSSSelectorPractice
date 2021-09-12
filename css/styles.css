@@ -1,12 +1,11 @@
-.btn {
-  width: 100px;
-  background: skyblue;
-  text-align: center;
-  padding: 4px;
-  color: white;
-  cursor: pointer;
+/* main > :nth-child(3) {
+  background: pink;
+} */
+
+main > :first-child {
+  background: pink;
 }
 
-.btn:hover {
-  opacity: 0.8;
+main > :last-child {
+  background: skyblue;
 }
